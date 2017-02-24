@@ -72,6 +72,11 @@ header li:hover ul li {
 	height: 100%;
 }
 
+.thumbnail{
+	height: 200px;
+	width: 70%;
+}
+
 .news-article{
 	width: 70%;
 	height: 150px;
@@ -234,7 +239,8 @@ float: left;
 }
 
 .Hbanniere{
-	height: 200px;
+	height: 100%;
+	max-height: 200px;
 }
 
 /* Slider */

@@ -31,7 +31,7 @@ get_header();
 			if(have_posts()): 
 				while(have_posts()): the_post();
 			?>
-			<div class=" news center-block" style="height: 200px;width: 70%;">
+			<div class=" news center-block thumbnail">
 				<div class="imgarticle col">
 					<?php the_post_thumbnail('thumbnail'); ?>
 				</div>

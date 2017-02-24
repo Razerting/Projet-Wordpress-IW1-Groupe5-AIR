@@ -13,7 +13,7 @@ get_header();
 				<article class="col texte-center unecolonne diff center-block">
 					<div class="col single">
 						<h1>Equipements</h1>
-						<div class=" single quatre col center-bloc diff" style="height: 200px;">
+						<div class=" single quatre col center-bloc diff hbanniere">
 					<?php affichageequipements(); ?>
 						</div>
 					</div>

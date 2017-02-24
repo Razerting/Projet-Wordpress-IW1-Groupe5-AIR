@@ -10,7 +10,7 @@
 	<body>
 		<header>
 		<div class="unecolonne col Hbanniere">
-			<img src="<?php the_field('banniere','40'); ?>" alt="Bannière">
+			<img src="<?php the_field('banniere','40'); ?>" alt="Bannière" class="unecolonne">
 		</div>
 <div class='quatre police-mono texte-center maj' id='menu' role='navigation'>
 		   <?php wp_nav_menu(array('theme_location' => 'header')); ?>
