@@ -9,8 +9,8 @@
 	</head>
 	<body>
 		<header>
-		<div class="unecolonne col Hbanniere">
-			<img src="<?php the_field('banniere','40'); ?>" alt="Bannière" class="unecolonne">
+		<div>
+			<img src="<?php the_field('banniere','40'); ?>" alt="Bannière" class="unecolonne col Hbanniere">
 		</div>
 <div class='quatre police-mono texte-center maj' id='menu' role='navigation'>
 		   <?php wp_nav_menu(array('theme_location' => 'header')); ?>
